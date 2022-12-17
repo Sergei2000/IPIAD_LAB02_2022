@@ -114,31 +114,42 @@ sentences = nltk.tokenize.sent_tokenize(text)
 
 
 #Ngram
+print("NGRAM:")
 vectorizer = CountVectorizer(ngram_range=(1, 2),analyzer='char_wb')
 X = vectorizer.fit_transform(sentences)
+print("Array:")
 print(X.toarray())
+print("features")
 print(vectorizer.get_feature_names_out())
 
 
 #word
+print("WORD:")
 vectorizer = CountVectorizer(ngram_range=(1, 1))
 X = vectorizer.fit_transform(sentences)
+print("Array:")
 print(X.toarray())
+print("features")
 print(vectorizer.get_feature_names_out())
 
-print("transform ")
-print(vectorizer.transform( ["which unconstitutional"]).toarray())
+#print("transform ")
+#print(vectorizer.transform( ["which unconstitutional"]).toarray())
 
 #collocation
+print("COLLOCATION:")
 vectorizer = CountVectorizer(ngram_range=(2, 3))
 X = vectorizer.fit_transform(sentences)
+print("Array:")
 print(X.toarray())
-print(len(X.toarray()),len(X.toarray()[0]))
+print("features")
 print(vectorizer.get_feature_names_out())
+
+print("Before decomposition:")
+print(len(X.toarray()),len(X.toarray()[0]))
 
 pca = decomposition.PCA()
 pca.fit(X.toarray())
 X = pca.transform(X.toarray())
 print(X)
+print("After decomposition:")
 print(len(X),len(X[0]))
-

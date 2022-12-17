@@ -1,0 +1,161 @@
+NGRAM:
+Array:
+[[ 52   0   0 ...   0   0   0]
+ [140   0   0 ...   0   0   0]
+ [ 78   0   0 ...   0   0   0]
+ ...
+ [  6   0   0 ...   0   0   0]
+ [ 10   0   0 ...   0   0   0]
+ [  6   0   1 ...   0   0   0]]
+features
+[' ' ' (' ' 1' ' 2' ' 9' ' a' ' b' ' c' ' d' ' e' ' f' ' g' ' h' ' i' ' j'
+ ' k' ' l' ' m' ' n' ' o' ' p' ' q' ' r' ' s' ' t' ' u' ' v' ' w' ' y'
+ ' —' ' ‘' ' “' '(' '(i' ')' ') ' ',' ', ' '-' '- ' '.' '. ' '.”' '0' '0 '
+ '0s' '1' '1 ' '10' '2' '24' '29' '4' '40' '6' '60' '7' '7 ' '9' '9 ' ':'
+ ': ' ';' '; ' 'a' 'a ' 'a,' 'a.' 'a;' 'ab' 'ac' 'ad' 'af' 'ag' 'ah' 'ai'
+ 'aj' 'ak' 'al' 'am' 'an' 'ao' 'ap' 'ar' 'as' 'at' 'au' 'av' 'aw' 'ay'
+ 'a’' 'b' 'ba' 'be' 'bi' 'bl' 'bo' 'br' 'bu' 'by' 'c' 'c ' 'c,' 'ca' 'cc'
+ 'ce' 'ch' 'ci' 'ck' 'cl' 'co' 'cr' 'ct' 'cu' 'cy' 'd' 'd ' 'd,' 'd.' 'd;'
+ 'da' 'dd' 'de' 'dg' 'di' 'dl' 'dm' 'dn' 'do' 'dr' 'ds' 'du' 'dv' 'dy'
+ 'd’' 'e' 'e ' 'e)' 'e,' 'e.' 'e;' 'ea' 'ec' 'ed' 'ee' 'ef' 'eg' 'eh' 'ei'
+ 'ek' 'el' 'em' 'en' 'eo' 'ep' 'eq' 'er' 'es' 'et' 'ev' 'ew' 'ex' 'ey'
+ 'e’' 'f' 'f ' 'f,' 'fa' 'fe' 'ff' 'fi' 'fl' 'fo' 'fr' 'ft' 'fu' 'fy' 'g'
+ 'g ' 'g,' 'g.' 'g7' 'ga' 'ge' 'gf' 'gg' 'gh' 'gi' 'gl' 'gn' 'go' 'gr'
+ 'gs' 'gu' 'h' 'h ' 'h,' 'h.' 'ha' 'he' 'hi' 'hl' 'ho' 'hr' 'ht' 'hy' 'i'
+ 'i ' 'i,' 'i-' 'ia' 'ib' 'ic' 'id' 'ie' 'if' 'ig' 'ih' 'ik' 'il' 'im'
+ 'in' 'io' 'ip' 'iq' 'ir' 'is' 'it' 'iv' 'iz' 'i’' 'j' 'je' 'ju' 'k' 'k '
+ 'k.' 'k:' 'ka' 'ke' 'ki' 'kl' 'kn' 'kr' 'ks' 'ky' 'l' 'l ' 'l,' 'l.' 'l;'
+ 'la' 'ld' 'le' 'li' 'lk' 'll' 'lm' 'lo' 'lp' 'lr' 'ls' 'lt' 'lu' 'lv'
+ 'ly' 'm' 'm ' 'm,' 'm.' 'ma' 'me' 'mi' 'mm' 'mo' 'mp' 'ms' 'mu' 'my' 'n'
+ 'n ' 'n,' 'n.' 'n:' 'n;' 'na' 'nc' 'nd' 'ne' 'nf' 'ng' 'ni' 'nk' 'nl'
+ 'nm' 'nn' 'no' 'ns' 'nt' 'nu' 'nv' 'ny' 'n’' 'o' 'o ' 'o.' 'oa' 'ob' 'oc'
+ 'od' 'oe' 'of' 'og' 'oi' 'ok' 'ol' 'om' 'on' 'oo' 'op' 'or' 'os' 'ot'
+ 'ou' 'ov' 'ow' 'oy' 'p' 'p ' 'p,' 'pa' 'pe' 'ph' 'pi' 'pl' 'po' 'pp' 'pr'
+ 'pt' 'pu' 'q' 'qu' 'r' 'r ' 'r,' 'r.' 'ra' 'rb' 'rc' 'rd' 're' 'rg' 'ri'
+ 'rk' 'rl' 'rm' 'rn' 'ro' 'rp' 'rr' 'rs' 'rt' 'ru' 'rv' 'rw' 'ry' 's' 's '
+ 's,' 's.' 's:' 's;' 'sa' 'sc' 'se' 'sh' 'si' 'sk' 'sl' 'sm' 'so' 'sp'
+ 'ss' 'st' 'su' 'sw' 'sy' 't' 't ' 't,' 't.' 't:' 'ta' 'tc' 'te' 'th' 'ti'
+ 'tl' 'tm' 'tn' 'to' 'tp' 'tr' 'ts' 'tt' 'tu' 'tw' 'ty' 't’' 'u' 'u ' 'u.'
+ 'ua' 'uc' 'ud' 'ue' 'ug' 'ui' 'uk' 'ul' 'um' 'un' 'up' 'ur' 'us' 'ut'
+ 'uv' 'v' 'v ' 'va' 've' 'vi' 'w' 'w ' 'w,' 'w.' 'wa' 'wd' 'we' 'wh' 'wi'
+ 'wl' 'wn' 'wo' 'wr' 'ws' 'wy' 'x' 'xh' 'xi' 'xp' 'xt' 'y' 'y ' 'y,' 'y.'
+ 'y:' 'y;' 'yd' 'ye' 'yi' 'yl' 'yo' 'ys' 'yt' 'yw' 'y’' 'z' 'ze' 'zi' '—'
+ '— ' '‘' '‘6' '’' '’l' '’m' '’r' '’s' '’t' '’v' '“' '“d' '“e' '“i' '”'
+ '” ']
+WORD:
+Array:
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+features
+['10' '240' '29' '60s' 'able' 'about' 'above' 'accountability'
+ 'accountable' 'acknowledging' 'act' 'action' 'activity' 'address'
+ 'administration' 'advance' 'after' 'afternoon' 'again' 'against'
+ 'aggression' 'agitators' 'ago' 'agree' 'aligned' 'all' 'ally' 'almost'
+ 'already' 'also' 'america' 'american' 'americans' 'an' 'and' 'any'
+ 'anyone' 'anyway' 'apart' 'appointed' 'appreciate' 'appropriate' 'are'
+ 'as' 'assured' 'at' 'attorney' 'away' 'back' 'badge' 'bali' 'barbaric'
+ 'basic' 'battle' 'be' 'been' 'before' 'begin' 'behavior' 'best' 'between'
+ 'biden' 'bigger' 'biggest' 'black' 'bless' 'blinders' 'borders' 'brave'
+ 'breathe' 'bring' 'britain' 'broad' 'broadly' 'brother' 'brown' 'but'
+ 'by' 'camera' 'can' 'car' 'careers' 'carried' 'carry' 'chance' 'change'
+ 'changed' 'chauvin' 'children' 'civic' 'civil' 'civilian' 'clarke'
+ 'clear' 'climate' 'close' 'closest' 'closing' 'color' 'come' 'commended'
+ 'commitment' 'committed' 'communities' 'community' 'complete'
+ 'confidence' 'confirmed' 'confronting' 'congratulations' 'congress'
+ 'constant' 'continue' 'continues' 'convergence' 'conversations' 'could'
+ 'countries' 'country' 'counts' 'courage' 'course' 'created' 'criminal'
+ 'crowd' 'daddy' 'daughter' 'daughters' 'day' 'daylight' 'death' 'deliver'
+ 'delivered' 'department' 'departments' 'derek' 'deserve' 'destroy' 'did'
+ 'didn' 'die' 'difficult' 'discussed' 'discussion' 'disparities'
+ 'division' 'do' 'does' 'doing' 'don' 'done' 'down' 'driving' 'duty'
+ 'economy' 'eminently' 'emotions' 'enduring' 'enforcement' 'enough'
+ 'ensure' 'entire' 'entrusted' 'equal' 'equality' 'equity' 'era'
+ 'especially' 'ever' 'every' 'everyone' 'everything' 'evidence'
+ 'exhausting' 'exhaustion' 'exist' 'experience' 'exploit' 'expression'
+ 'extraordinary' 'extremists' 'factors' 'fail' 'family' 'fan' 'father'
+ 'fear' 'federal' 'feels' 'fellow' 'few' 'fight' 'fighting' 'finally'
+ 'finding' 'flames' 'floyd' 'for' 'forces' 'forget' 'former' 'forward'
+ 'found' 'free' 'friend' 'from' 'front' 'full' 'fully' 'funeral' 'g7'
+ 'garland' 'general' 'generation' 'george' 'get' 'gianna' 'giant' 'glad'
+ 'global' 'go' 'god' 'going' 'good' 'government' 'governor' 'great'
+ 'grocery' 'guilty' 'gupta' 'had' 'hadn' 'hand' 'happen' 'harbor' 'harsh'
+ 'has' 'hate' 'have' 'he' 'head' 'heard' 'hearing' 'hearts' 'held'
+ 'helped' 'her' 'here' 'highly' 'him' 'his' 'hold' 'home' 'honor'
+ 'honorably' 'hope' 'how' 'ideal' 'if' 'in' 'inaudible' 'incredible'
+ 'individuals' 'inevitable' 'instead' 'interactions' 'interest'
+ 'interests' 'into' 'is' 'issue' 'it' 'judicial' 'jury' 'just' 'justice'
+ 'keep' 'key' 'killings' 'knee' 'knelt' 'know' 'knowing' 'kristen' 'kyiv'
+ 'last' 'lasts' 'latest' 'launched' 'law' 'laws' 'lawyers' 'leaders'
+ 'leadership' 'leave' 'legacy' 'legislation' 'let' 'life' 'light' 'like'
+ 'likelihood' 'listen' 'listening' 'live' 'living' 'll' 'local' 'long'
+ 'look' 'looking' 'lose' 'loved' 'make' 'many' 'march' 'may' 'me' 'mean'
+ 'meaningful' 'meet' 'meeting' 'memory' 'men' 'merciless' 'message' 'met'
+ 'midst' 'minds' 'minister' 'minneapolis' 'minnesota' 'minutes'
+ 'misconduct' 'missile' 'moment' 'more' 'morning' 'most' 'much' 'murder'
+ 'murdered' 'must' 'my' 'name' 'nation' 'nato' 'necessary' 'neck' 'need'
+ 'needs' 'never' 'night' 'no' 'nominated' 'nominees' 'not' 'nothing'
+ 'occur' 'of' 'off' 'offer' 'officer' 'officers' 'on' 'one' 'ones' 'only'
+ 'opportunity' 'or' 'order' 'our' 'out' 'over' 'page' 'pain' 'park'
+ 'partner' 'partnership' 'passage' 'peace' 'peaceful' 'people' 'person'
+ 'playing' 'police' 'policies' 'policing' 'possible' 'power' 'pray'
+ 'prayer' 'president' 'pressure' 'prime' 'priorities' 'profound'
+ 'progress' 'property' 'protect' 'protest' 'protests' 'proud' 'pull'
+ 'purpose' 'push' 'putin' 'qualified' 'quickly' 'race' 'racial' 'racism'
+ 'ranks' 'rare' 'raw' 're' 'reaffirm' 'real' 'reality' 'reduce' 'referred'
+ 'reform' 'relationship' 'relive' 'remarkable' 'respected' 'restore'
+ 'restoring' 'right' 'rights' 'ripped' 'root' 'run' 'russia' 'russian'
+ 'safe' 'safety' 'said' 'same' 'saw' 'say' 'seconds' 'security' 'see'
+ 'seek' 'seeking' 'seems' 'seen' 'sends' 'senseless' 'serve' 'she'
+ 'should' 'shouldn' 'sign' 'significant' 'since' 'single' 'sit' 'skill'
+ 'sleep' 'sleeping' 'smartphone' 'so' 'social' 'sons' 'sort' 'soul'
+ 'speak' 'spent' 'spoke' 'spuki' 'stabilizing' 'stain' 'stand' 'standard'
+ 'standing' 'state' 'states' 'step' 'stewardship' 'stop' 'store' 'street'
+ 'strikes' 'striking' 'succeed' 'such' 'summer' 'sunak' 'support'
+ 'supporting' 'sworn' 'system' 'systemic' 'tackle' 'tackling' 'take'
+ 'takes' 'taking' 'targets' 'team' 'terms' 'testified' 'testifying' 'than'
+ 'thank' 'thanked' 'that' 'the' 'their' 'them' 'themselves' 'then' 'there'
+ 'they' 'think' 'thinking' 'this' 'those' 'thought' 'through' 'time'
+ 'times' 'to' 'today' 'together' 'told' 'tomorrow' 'too' 'took' 'top'
+ 'torn' 'toward' 'trading' 'tragedies' 'trajectory' 'trauma' 'traumatic'
+ 'traumatized' 'trial' 'trust' 'tug' 'turn' 'two' 'ukraine' 'ukrainian'
+ 'ultimately' 'unconstitutional' 'under' 'unified' 'unique' 'unite'
+ 'united' 'up' 'us' 'values' 'vanita' 've' 'verdict' 'very' 'vice'
+ 'violence' 'violent' 'wake' 'walking' 'wanted' 'war' 'was' 'watching'
+ 'way' 'we' 'wear' 'well' 'were' 'weren' 'western' 'what' 'when' 'whether'
+ 'which' 'who' 'whole' 'why' 'will' 'wins' 'with' 'witnesses' 'woman'
+ 'women' 'words' 'work' 'working' 'world' 'worry' 'write' 'yeah' 'year'
+ 'years' 'you' 'young' 'your' 'yours']
+COLLOCATION:
+Array:
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+features
+['10 minutes' '10 minutes in' '240 years' ... 'your words barbaric'
+ 'yours barbaric' 'yours barbaric what']
+Before decomposition:
+103 2780
+[[-8.71686056e-02 -6.69394471e-02 -4.57761155e-03 ... -1.21518147e-03
+  -7.67745843e-04 -4.00634387e-15]
+ [ 3.54826032e+00  4.66480166e+00  9.96708521e+00 ... -1.05971669e-04
+  -8.54661324e-05  1.67314079e-15]
+ [-1.03929184e-01 -8.74713586e-02 -5.74661845e-03 ... -5.48303626e-04
+  -4.25804306e-04  7.94720192e-16]
+ ...
+ [-1.56103756e-01 -1.34173308e-01 -1.70152901e-02 ... -1.98812829e-01
+   4.98400448e-03  5.08057138e-16]
+ [-1.67995972e-01 -1.46545990e-01 -1.80571491e-02 ... -7.58449161e-02
+   9.43486795e-03  6.05201653e-16]
+ [-1.54126523e-01 -1.32283269e-01 -1.67572154e-02 ...  6.29515991e-01
+  -7.19422791e-02  5.06170626e-15]]
+After decomposition:
+103 103
